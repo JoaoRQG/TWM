@@ -1,0 +1,105 @@
+/*Css para a classe div, para determinar a imagem de fundo e suas modificações*/
+.background-container {
+    background-image: url('Cidade.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Css para a classe form, para determinar alguns aspectos do formulário, como a cor, largura máxima, quebra de linha na falta de espaço, dentre outros */
+  form {
+    max-width: 1200px; 
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #c2c0c0e7; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+
+  /*Css para a classe table, para determinar alguns aspectos da tabela, como a cor, largura máxima, dentre outros */
+  table {
+    width: 100%;
+    background-color: #c2c0c0e7; 
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /*Css para a classe th e td, para determinar alinhamento das células e linhas, assim como o distanciamento a borda */
+  th, td {
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Css que define a largura das caixas para 48% possibilitando um espaço entre elas */
+  label, input {
+    flex: 0 0 48%; 
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  /* Css para manipular os botões do cadastro de informações*/
+  button {
+    flex: 0 0 100%; 
+    font-size: 20px;
+    background-color: rgb(66, 36, 199);
+    color: #fff;
+    padding: 15px 90px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Css para manipular os botões da listagem de informações */
+  .button-container {
+    flex: 0 0 100%; 
+    background-color: rgb(66, 36, 199);
+    color: #fff;
+    padding: 15px 24px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+
+  
+  
+
+  
+  
+  
